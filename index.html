@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>GardenScape</title>
+</head>
+<body>
+    
+    <div id="design" class="d-flex justify-content-center">
+    <h1 >GardenScape</h1>
+    
+    </div>
+    
+    
+    <br><br>
+    <h3>About Us</h3><br>
+    <p id="about">"One of the best garden solution in Australia".</p>
+    <br>
+    <h3>Contact Details</h3>
+    <br>
+    <p>Email: anjaanprasai@gmail.com 
+        <br>
+        Phone Number: +61 415353010
+    
+    </p>
+    <br><br>
+    <div id="image" class="d-flex justify-content-center">
+        <img src="download.jpeg" class="img-fluid" alt="Responsive image" style="height:300px;  border-radius: 50px; object-fit: cover;" >
+
+    </div>
+<br><br>
+<h3>Booking Details</h3>
+<hr>
+<br>
+<form  method="post"class="d-flex justify-content-center">
+    <div class="booking" >
+    <div class="form-group">
+      Full Name:
+      <input type="text" class="form-control" id="all" autocomplete="off" name="fullname" placeholder="Please enter your full name here.....">
+      </div>
+      <div class="form-group">
+        Email:
+        <input type="email" class="form-control" id="all" autocomplete="off" name="email" placeholder="Enter your valid email.....">
+        </div>
+        <div class="form-group">
+            Contact Number:
+            <input type="text" class="form-control" id="all" autocomplete="off" name="contact"placeholder="Contact number.....">
+            </div>
+            <div class="form-group">
+                Address:
+                <input type="text" class="form-control" id="all" autocomplete="off" name="address"placeholder="Enter your full address.....">
+                </div>
+                <div class="form-group">
+                    Date:
+                    <input type="date" class="form-control" id="all" autocomplete="off" name="date"placeholder="Enter your full address.....">
+                    </div>
+         
+     
+    <button type="submit" class="btn btn-success" id="submit">Submit</button>
+    </div>
+  </form>
+  <br>
+  
+
+    <style>
+        #all
+        {
+            height: 45px;
+        }
+        h1{
+            font-family: cursive;
+            font-weight: bolder;
+            color: maroon;
+            font-size: 70px;
+        }
+       
+        body{
+            background-color: white;
+        }
+        #submit
+        {
+            width: 390px;
+        }
+        h3{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+           
+            color: crimson;
+            
+        }
+       
+    
+        #about{
+            text-align: center;
+            color: darkorange;
+            
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            
+        }
+        .booking
+        {
+            background-color:khaki;
+            padding:30px;
+            width:450px;
+        }
+        p{
+            text-align: center;
+            font-size: 20px;
+           
+            color:darkorange;
+            font-weight: bolder;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        @media only screen and (max-width: 600px) {
+   h1{
+    font-size: 35px;
+  }
+  
+  
+  .booking{
+      width:350px;
+
+  }
+  p{
+      color:darkorange;
+      font-size: 15px;
+  }
+  
+  #submit
+  {
+      width:290px;
+
+  }
+  
+}
+*{
+    margin: 0px;
+
+}
+
+           
+            
+        
+        
+    </style>
+   
+</body>
+</html>
